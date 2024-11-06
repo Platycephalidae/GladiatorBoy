@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"EtatAvatar_Attaque_Combo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EtatAvatar_Attaque_Combo",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
