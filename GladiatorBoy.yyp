@@ -34,11 +34,9 @@
   },
   "name":"GladiatorBoy",
   "resources":[
-
     {"id":{"name":"obj_A_NME","path":"objects/obj_A_NME/obj_A_NME.yy",},},
     {"id":{"name":"obj_A_spawn_droit","path":"objects/obj_A_spawn_droit/obj_A_spawn_droit.yy",},},
     {"id":{"name":"obj_A_spawn_gauche","path":"objects/obj_A_spawn_gauche/obj_A_spawn_gauche.yy",},},
-    {"id":{"name":"obj_Avatar","path":"objects/obj_Avatar/obj_Avatar.yy",},},
     {"id":{"name":"obj_collision_test","path":"objects/obj_collision_test/obj_collision_test.yy",},},
     {"id":{"name":"obj_gamemanager_etatavatar_libre","path":"objects/obj_gamemanager_etatavatar_libre/obj_gamemanager_etatavatar_libre.yy",},},
     {"id":{"name":"obj_MM_Play","path":"objects/obj_MM_Play/obj_MM_Play.yy",},},
@@ -58,8 +56,6 @@
     {"id":{"name":"spr_MM_Play","path":"sprites/spr_MM_Play/spr_MM_Play.yy",},},
     {"id":{"name":"spr_NME","path":"sprites/spr_NME/spr_NME.yy",},},
     {"id":{"name":"spr_spawn","path":"sprites/spr_spawn/spr_spawn.yy",},},
-    {"id":{"name":"spr_Test","path":"sprites/spr_Test/spr_Test.yy",},},
-
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

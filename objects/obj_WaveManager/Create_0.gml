@@ -4,50 +4,20 @@
 randomize()
 
 // Variable de Wave, compte le nombre de waves dans le jeu
-Wave = 0
+Wave = 1
 
 // Variable qui compte les ennemis qui apparaissent 
-NMEcount = 0
+NMEcounter = 0
 
 // Variable qui compte le nombre d'NME tues par le joueur
 NMEkilled = 0
 
 // Les variables nbWavesX determinent le nombre d'NME attendus pour chaque vague 
-nbWave = 3
-
+MaxNME = 3
 
 Spawn = 0
 
-
-fct_Spawn_Alarm = function()
-{
-alarm[0] = 60
-}
-
-
-
-if Wave == 0
-{
-	show_debug_message("Debut Wave")
-	
-	// Si le nb d'NME est le nb voulu ET que le joueur a tue ce meme nb d,NME, alors ne pas rentrer dans la boucle
-	while NMEcount /* && NMEkilled */ != nbWave
-	{
-		show_debug_message("Rentre boucle while")
-		// Si le nb d'NME est inferieur au maximum d'NME voulu, alors en faire spawn
-		while NMEcount < nbWave
-		{
-			show_debug_message("Boucle de spawn")
-			fct_Spawn_Alarm()
-		}
-	}
-}
-
-
-
 // Fonction qui fait spawn les NME, soit a gauche, soit a droite, puis incremente le NMEcount
-
-/*
 fct_Spawn_NME = function ()
 {
 
@@ -67,7 +37,21 @@ fct_Spawn_NME = function ()
 	
 	NMEcount++
 }
-*/
+
+
+WaveActive = function()
+{
+	Wave = 0
+	show_debug_message("Debut Wave")
+	
+	// Si le nb d'NME est le nb voulu ET que le joueur a tue ce meme nb d,NME, alors ne pas rentrer dans la boucle
+	if NMEcounter  != MaxNME
+	{
+			alarm[0] = 1
+	}
+}
+
+
 
 // Fonction qui remet a 0 les variables d'NMEcount et NMEkilled entre chaque waves
 fct_Reset_Counter = function()

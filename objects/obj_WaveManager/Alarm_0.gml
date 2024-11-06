@@ -1,7 +1,11 @@
 /// @description Fait Spawn NME
 // You can write your code in this editor
 
-		Spawn = irandom_range (1,2)
+
+if NMEcounter < MaxNME
+{
+	show_debug_message("Boucle de spawn")
+	Spawn = irandom_range (1,2)
 		
 		if  Spawn == 1
 		{
@@ -15,4 +19,7 @@
 			show_debug_message("ca spawn a droite")
 		}
 	
-	NMEcount++
+	NMEcounter++
+
+alarm[0] = 60
+}
