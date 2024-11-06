@@ -1,0 +1,2 @@
+/// @description Definition variables
+
