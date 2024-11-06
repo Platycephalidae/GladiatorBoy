@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Test",
-  "eventList":[],
+  "%Name":"obj_ChunkTest",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_Test",
+  "name":"obj_ChunkTest",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -28,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Test",
-    "path":"sprites/spr_Test/spr_Test.yy",
+    "name":"spr_chunk",
+    "path":"sprites/spr_chunk/spr_chunk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
