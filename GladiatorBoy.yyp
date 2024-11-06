@@ -34,7 +34,6 @@
   },
   "name":"GladiatorBoy",
   "resources":[
-    {"id":{"name":"obj_Avatar","path":"objects/obj_Avatar/obj_Avatar.yy",},},
     {"id":{"name":"obj_collision_test","path":"objects/obj_collision_test/obj_collision_test.yy",},},
     {"id":{"name":"obj_gamemanager_etatavatar_libre","path":"objects/obj_gamemanager_etatavatar_libre/obj_gamemanager_etatavatar_libre.yy",},},
     {"id":{"name":"obj_MM_Play","path":"objects/obj_MM_Play/obj_MM_Play.yy",},},

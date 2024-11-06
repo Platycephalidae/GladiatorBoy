@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Avatar",
+  "%Name":"obj_A_Avatar",
   "eventList":[],
   "managed":true,
-  "name":"obj_Avatar",
+  "name":"obj_A_Avatar",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",

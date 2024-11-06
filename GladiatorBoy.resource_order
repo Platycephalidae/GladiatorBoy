@@ -17,7 +17,6 @@
     {"name":"Tile sets","order":2,"path":"folders/Tile sets.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_Avatar","order":2,"path":"objects/obj_Avatar/obj_Avatar.yy",},
     {"name":"obj_collision_test","order":3,"path":"objects/obj_collision_test/obj_collision_test.yy",},
     {"name":"obj_gamemanager_etatavatar_libre","order":4,"path":"objects/obj_gamemanager_etatavatar_libre/obj_gamemanager_etatavatar_libre.yy",},
     {"name":"obj_MM_Play","order":1,"path":"objects/obj_MM_Play/obj_MM_Play.yy",},
