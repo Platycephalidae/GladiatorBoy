@@ -35,4 +35,6 @@
     {"name":"spr_MM_TestRoom","order":6,"path":"sprites/spr_MM_TestRoom/spr_MM_TestRoom.yy",},
     {"name":"spr_TR_Backround","order":7,"path":"sprites/spr_TR_Backround/spr_TR_Backround.yy",},
   ],
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
 }
